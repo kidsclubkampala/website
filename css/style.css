@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "revicons";
+  src: url(./../fonts/revicons.eot);
+  src: url(./../fonts/revicons.eot) format("embedded-opentype"),
+    url(./../fonts/revicons.woff) format("woff"),
+    url(./../fonts/revicons.ttf) format("truetype"),
+    url(./../images/revicons.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Albert Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000;
+}
+
+h1,
+h2 {
+  font-family: "revicons" !important;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+}
+
+.btn-gold {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #ffc107;
+}
+.hero {
+  position: relative;
+  background: var(--texture-image) repeat,
+    var(--background-image) no-repeat center center;
+  background-size: auto, cover;
+  color: #fff;
+  padding: 150px 0;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 3;
+}
+
+.hero .background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+  animation: slide-animation 9s ease-in-out infinite;
+}
+
+@keyframes slide-animation {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-33.33%);
+  }
+  66.67% {
+    transform: translateX(-66.67%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.black-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index: 0;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
