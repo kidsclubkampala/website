@@ -2850,9 +2850,13 @@ section,
   font-size: 150%;
   background-color: #ffe134;
 }
-.swal2-popup {
+.swal2-popup-old {
   background-color: black !important;
   color: white;
+}
+.swal2-popup {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0);
 }
 .whitepopup {
   background-color: rgb(255, 249, 212) !important;
