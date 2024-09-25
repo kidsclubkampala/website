@@ -1,9 +1,9 @@
 Swal.fire({
   title: " Foster/adopt a child?",
   html: `
-  <h1 class="text-center display-1 "> <span class="bi bi-pen-fill text-warning"></span></h1>    
+  <h1 class="text-center display-1 "> <span class="bi bi-person-plus-fill text-warning"></span></h1>    
  
-  <p><a class="btn btn-light mr-2 m-2" onclick="Swal.close()">Not Yet</a><a class="btn btn-warning m-2" onclick="contact()">Yes please</a></p>
+  <p><a class="btn btn-secondary mr-2 m-2" onclick="Swal.close()">Not Yet</a><a class="btn btn-warning m-2" onclick="contact()">Yes please</a></p>
      
     `,
   showCloseButton: true,
