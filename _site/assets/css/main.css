@@ -88,13 +88,13 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 .header .logo {
-  line-height: 1;
+ 
 }
 
 .header .logo img {
@@ -130,7 +130,9 @@ h6 {
   .header .logo {
     order: 1;
   }
-
+  .logopic{
+    width: 85px ;
+  }
   .header .btn-getstarted {
     order: 2;
     margin: 0 15px 0 0;
@@ -2955,4 +2957,7 @@ textarea {
 .bankrow td {
   background-color: #c12d2d !important;
   color: #ffffff !important;
+}
+.logopic{
+  width: 70px ;
 }
