@@ -399,6 +399,26 @@ h6 {
   }
 }
 
+.join-image {
+  display: block;
+  width: 100%;
+  max-width: 996px;
+  height: 598px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.full-width-image {
+  display: block;
+  width: 100%;
+  max-width: 996px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
 /* Listing Dropdown - Desktop */
 @media (min-width: 1200px) {
   .navmenu .listing-dropdown {

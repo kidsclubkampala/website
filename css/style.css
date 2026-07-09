@@ -19,6 +19,51 @@ body {
   color: #000;
 }
 
+.career-page {
+  background: linear-gradient(180deg, #f8fbf9 0%, #ffffff 100%);
+}
+
+.career-page .career-hero-title {
+  background: linear-gradient(135deg, #0f3d2e 0%, #1f6f4e 100%) !important;
+  border-radius: 20px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.14);
+  letter-spacing: 0.3px;
+}
+
+.career-page .career-content-card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(15, 61, 46, 0.08);
+}
+
+.career-page .card {
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(15, 61, 46, 0.08);
+}
+
+.career-page .career-image {
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.career-page .btn-danger {
+  box-shadow: 0 8px 16px rgba(220, 53, 69, 0.16);
+}
+
+.career-page .btn-outline-danger {
+  border-width: 2px;
+}
+
+.career-page .ol li {
+  background: #f8fbf9;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #dc3545;
+}
+
 h1,
 h2 {
   font-family: "revicons" !important;
